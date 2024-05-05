@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-image: url('https://i.pinimg.com/564x/6f/71/20/6f7120978e84bb6b3d0e4c927ead6472.jpg');
+            /* Change 'background.jpg' to the filename of your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            /* Set text color to white */
+        }
+
+        h1 {
+            color: #333;
+            /* You can keep the h1 color unchanged */
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Add a semi-transparent black background to the prediction value */
+            padding: 10px;
+            /* Add padding to the prediction value */
+            border-radius: 5px;
+            /* Add rounded corners to the prediction value */
+        }
+    </style>
+</head>
+
+<body>
+    <h1><span style="color : White;">Prediction Result</span></h1>
+    <p>The predicted value is: <span style="color: pink;">{{ prediction }}</span></p>
+</body>
+
+</html>
